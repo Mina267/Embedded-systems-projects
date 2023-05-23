@@ -63,17 +63,29 @@ Build with Atmega32 many appication Like Smart home system, fire system and Auto
 ⚡️Communication Protocols (UART, SPI, I2C).
 
 
-## 🔗 Links
+## Some Lessons Learned
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mina-magdy-563630170/)
+● Modular program and static design.
 
+● Memory Mapped Registers.
 
+● Software Architecture.
 
-## Lessons Learned
+● Reentrant, Non-Reentrant Function.
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
+● Timers Hardware & modes.
+
+● PWM & motors control DC, Servo.
+
+● Synchronous vs. Asynchronous API for UART.
 
 
 ## 🚀 About Me
 I'm a Embedded software Engineer. this my AVR project.
 Electrical and Machine Engineering, Helwan University. 2022.
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mina-magdy-563630170/)
+
+
