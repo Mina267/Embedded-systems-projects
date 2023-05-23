@@ -1,5 +1,5 @@
 ## 🔥Fire System🔥
-✨ Measure temperature through the sensor, and filter with a first-degree filter. ‎When temperature exceeds turn from Fine state to Heat state. And yellow ‎LED turn on, send a Warring message through UART, and starts taking reading from the smoke sensor (Take Read Every 1 sec.)‎
+✨ Measure temperature through the sensor, and filter with a first-degree filter. ‎When temperature exceeds turn from Fine state to Heat state. And yellow ‎LED turn on, send a Warring message through UART, and starts taking ‎reading from the smoke sensor (Take Read Every 1 sec.)‎
 
 ✨ If Smoke increases, fire State Start (turning on the red LED, Siren sound, ‎Pump, and smoke fan and sending an Alarm message through UART).‎
 
