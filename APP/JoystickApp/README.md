@@ -1,9 +1,5 @@
 ## 🕹️ Control Servo and Stepper Using Joystick 🕹️
 
-🚘 Car backward signs turn left, right ,and waiting.
-
-🚘 Apply state machine by two methods switch case and array of pointer two functions. 
-
 🤖 Read two Voltage of the Joystick using ADC First for X-axis and second for ‎Y-axis
 
 🤖 Adjust the Voltage reading to the origin of the X-axis and Y-axis. And by ‎mapping volt to coordinates detect the quadrant by volt polarity and angle ‎from inverse tan of axis’s
