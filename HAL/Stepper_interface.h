@@ -5,8 +5,9 @@
 
 typedef enum
 {
-	CW,
 	CCW,
+	CW,
+	
 	}Stepper_Dir_type;
 	
 /****************************  Stepper cfg ****************************/
@@ -15,11 +16,11 @@ typedef enum
 #define COIL1B  PINC1
 #define COIL2A  PINC2
 #define COIL2B  PINC3
-#define DELAY	5   // minimum 3 ms
+#define DELAY	3  // minimum 3 ms
 
 /*********************************/
 
-#define STEP_PERON_ROT 512
+#define STEP_PERONE_ROT 512
 
 /*********************************/
 
@@ -42,6 +43,7 @@ void Stepper_ByAngle_HS(u16 angle, Stepper_Dir_type dir);
 void Stepper_ByRotate(u16 rot, Stepper_Dir_type dir);
 void Stepper_ByRotate_HS(u16 rot, Stepper_Dir_type dir);
 
-
-
+void Stepper_AngleSetter(u16 angle);
+u8 Stepper_AngleRunnable(void);
+void Stepper_PosMatch(void);
 #endif /* STEPPER_INTERFACE_H_ */
