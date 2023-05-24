@@ -1,4 +1,4 @@
-## 🚗Auto Parking System 🚗
+## 🚗 Auto Parking System 🚗
 🚙 Car Start Searching for a parking spot by two side ultrasonic sensors, the front sensor detect the required ‎width and start calculating distance (D=V⁄T) ‎
 
 🚙 When the Side back ultrasonic sensor also reads the car width and forward gets the required distance for ‎parking the car starts parking protocol.‎
